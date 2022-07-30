@@ -26,6 +26,13 @@ Aiming.ShowFOV = false
   	end    
 })
 
+Main:AddButton({
+	Name = "DHC Selling Gui",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Crostide/cdhc/main/gui"))()
+  	end    
+})
+
 local Player = Window:MakeTab({
 	Name = "Player",
 	Icon = "rbxassetid://",
